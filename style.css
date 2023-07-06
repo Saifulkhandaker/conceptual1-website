@@ -35,7 +35,6 @@
     height: 100vh;
     align-items: center;
     color: white;
-    /* border: 2px solid grey; */
     background-image: url("./images/background.png"),linear-gradient(45deg,rgb(9, 8, 8),rgb(20, 20, 20));
     background-position: center;
     background-size: cover;
@@ -68,7 +67,6 @@ h1{
 .about-container{
     display: flex;
     justify-content: space-around;
-    height: 100vh;
     text-align: justify;
     padding-top: 70px;
 }
@@ -76,8 +74,10 @@ h1{
     width: 300px;
 }
 .about-title{
-    font-size: 20px;
+    font-size: 55px;
     font-weight: bold;
+    color: aliceblue;
+    background-color: black;
 
 }
 .about-p{
@@ -95,4 +95,35 @@ h1{
 }
 .about-btn:hover{
     color: rgb(32, 34, 35);
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+   background-color: grey;
+   margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
