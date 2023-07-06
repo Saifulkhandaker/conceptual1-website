@@ -76,9 +76,6 @@ h1{
 .about-title{
     font-size: 55px;
     font-weight: bold;
-    color: aliceblue;
-    background-color: black;
-
 }
 .about-p{
     font-size: 18px;
@@ -126,4 +123,10 @@ h1{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.service-title{
+    font-size: 55px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: black;
 }
