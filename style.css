@@ -137,6 +137,8 @@ h1{
     display: flex;
     justify-content: space-around;
     padding-top: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -147,3 +149,13 @@ h1{
     padding-top: 20px;
     list-style: none ;
 }
+.copyright{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+ 
